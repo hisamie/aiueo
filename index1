@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>写真ブログ:Hisa PHOTO BLOG:写真と文章をお届け。面白い本の紹介も。</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="富士フィルムのミラーレスe-x1で撮影。面白い本の紹介もしています。|写真|ミラーレス|オススメ本|HTML|CSS|">
+    
+    <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-189864078-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-189864078-1');
+</script>
+
+    </head>
+<body class="top">
+    <div class="box1">
+    <div class="site">
+        <h1><a href="index.html">Hisa PHOTO BLOG</a></h1>
+        </div>
+    </div>
+    
+    <div class="box2">
+    <nav class="menu">
+    <ul>
+        <li><a href="index.html">TOP</a></li>
+        <li><a href="profile.html">profile</a></li>
+    </ul>
+    </nav>
+    </div>
+    
+    <div class="boxA">
+    <div class="box3">
+        
+        <article class="gaiyou">
+    <a href="エスプレッソ.html">
+        <img src="エスプレッソ.jpg" alt="エスプレッソ">
+        <time>9月19日</time>
+        <p>そうだ、家の近くにないから自分で作ればいいんだ</p>
+        <p>お金がなくて、時間がある場合にはそれを利点にすればいい。欲しいものは自分で作る。ミスドがないなら自分で作り、美味しいクッキーが欲しいのなら作ればいい。もちろん、レシピはぜんぶ詮索。今日はコーヒーを作って思ったことを書きました。</p>
+        </a>
+    </article>
+        
+        <article class="gaiyou">
+    <a href="花.html">
+        <img src="青い花.jpg" alt="青い花">
+    <p>スーパーに入ってる花屋で選び・・・<p>
+    <p class="more">次ページへ</p>
+        <time>2021.6.12</time>
+        </a>
+    </article>
+        
+       <article class="gaiyou">
+    <a href="デイリー更新.html">
+        <img src="夜の犬.jpg" alt="ランタンに照らされた犬">
+    <p>詩を詠みました。ランタンに照らされた…</p>
+    <p class="more">次ページへ</p>
+        <time>2021.5.25</time>
+        </a>
+    </article>
+        
+        <article class="gaiyou">
+    <a href="大野ダムの桜.html">
+    
+        <img src="桜.jpg" alt="桜">
+
+    <p>let’s make doughnuts/21.4.8</p>
+    <p class="more">next page</p>
+        </a>
+    </article>
+        
+        <article class="gaiyou">
+    <a href="パウンドケーキ　レモン.html">
+    
+        <img src="レモンのパウンドケーキ.jpg" alt="レモンのパウンドケーキ">
+
+    <p>レモンのパウンドケーキ　レシピ/21.2.17</p>
+    <p class="more">next page</p>
+        </a>
+    </article>
+        
+       <article class="gaiyou">
+    <a href="鈍いビーカー.html">
+    
+        <img src="ビーカー.jpg" alt="暗闇にあるビーカー">
+
+    <p>遠慮フィルターの解除方法/21.2.12</p>
+    <p class="more">next page</p>
+        </a>
+    </article>
+        
+        <article class="gaiyou">
+    <a href="焙煎.html">
+        <img src="コーヒー豆.jpg" alt="ビーカーに入ったコーヒー豆">
+    <p>時間のかかりすぎた焙煎/20.1.30</p>
+    <p class="more">next page</p>
+        </a>
+    </article>
+        
+        <article class="gaiyou">
+    <a href="本　vol.3：現実脱出論.html">
+    
+        <img src="人参.jpg" alt="オレンジ色　人参">
+    <p>人参には存在しない色をまぜることで(今回のオススメ本vol.3)</p>
+    <p class="more">next page/21.1.20</p>
+        </a>
+    </article>
+        
+        
+            
+        
+        <div id="page_top"><a href="#"></a></div>
+    </div>
+</div>
+    
+    <div class="pagenation">
+    <ul>
+    <li><a href="index.html" class="active">1</a></li>
+    <li><a href="index2.html">2</a></li>
+    <li><a href="index3.html">3</a></li>
+        </ul>
+     </div>
+    
+     
+    <div class="box5">
+    <div class="copyright">
+    <p>Copyright &copy; Hisa PHOTO BLOG</p>
+        </div>
+        
+    </div>
+</body>
+</html>
