@@ -1,0 +1,304 @@
+@charset "UTF-8";
+
+body { font-family: "Noto Sans JP"; }
+body  {background-color: #fffefc}
+/* サイト名 */
+.site h1 a {color: #000000;
+            text-decoration: none;
+            }
+.site h1   {margin: 0;
+            font-size: 80px;
+            font-family: 'Francois One', sans-serif;
+            font-size: normal;
+            text-align:left; }
+            
+
+
+/* ナビゲーション */
+.menu ul   {margin: 0;
+            padding: 2px;
+            list-style: none;}
+.menu li a   {display: block;
+              padding: 5px;
+              color: #000000;
+              font-size: 14px;
+              text-decoration: none;}
+.menu li a:hover     {background-color: #fffefc;
+                      color; #000000; }
+.menu ul:after       {content: "";
+                      display: block;
+                      clear: both;}
+.menu li             {float: left;
+                      width: auto;}
+
+/* box2をバーの形にする */
+.box2         {background-color: #fffefc;
+               border: solid 1px #000000;}
+
+/* 記事 */
+.kiji h2    {margin-top: 0;
+             margin-bottom: 15px;
+             font-size: 28px;
+             padding-left: 10px;
+             border-left: solid 10px #ff773e;
+             font-weight: normal}
+
+.kiji p     {margin-top: 0;
+             margin-bottom: 20px}
+.kiji    {display: block;
+               border: solid 1px #000000;
+               color: #000000;
+               text-decoration: none;
+               padding-top: 30px;
+               padding-bottom: 90px;
+               padding-right: 80px;
+               padding-left: 80px;}
+.kiji img   {max-width: 100%;
+             height: auto;
+                border: none;
+                margin-bottom: 30px;
+                vertical-align: bottom;}
+
+
+
+/* 概要 */
+
+.gaiyou       {margin-bottom: 30px;}
+.gaiyou a     {display: block;
+               border: solid 1px #000000;
+               color: #000000;
+               text-decoration: none;
+               }
+
+
+.gaiyou a:hover     {box-shadow: 0 0 10px #dddddd;}
+
+.gaiyou img    {max-width: 99%;
+                height: auto;
+                border: none;
+                margin-bottom: 10px;
+                margin-left: 2px;
+                margin-right: 2px;
+                margin-top: 2px;
+
+                vertical-align: bottom}
+
+.gaiyou h2     {font-size: 18px;
+　　　　　　　　   text-align: left;
+                margin-top: -20px;}
+
+.gaiyou h5     {font-size: 16px;
+　　　　　　　　   margin-left: 10px;
+                margin-right: 0px; 
+               }
+.gaiyou h5:hover {
+                color:orangered;
+}
+.gaiyou p      {
+                margin-top: 0;
+                margin-bottom: 2px;
+                margin-left: 10px;
+                margin-right: 10px;
+                text-align: left;}
+.gaiyou p:hover {
+                color:orangered;
+}
+.gaiyou time   {font-size: 18px;
+                text-align: left;
+                font-size: 10px;
+                margin-left: 10px;
+}
+
+
+
+/* ページネーション */
+
+.pagenation        {text-align: center;}
+.pagenation ul     {display: inline-block;
+                    margin: 0;
+                    padding: 0;
+                    list-style: none}
+
+.pagenation li a   {display: block;
+                    margin-left: 5px;
+                    margin-right: 5px;
+                    padding: 5px 10px;
+                    border: solid 1px #aaaaaa;
+                    color: #000000;
+                    font-size: 14px;
+                    text-decoration: none}
+
+.pagenation li a.active      {background-color: #cccccc}
+.pagenation li a:hover    {background-color: #eeeeee}
+.pagenation ul:after      {content: "";
+                           display: block;
+                           clear: both}
+.pagenation li            {float: left;
+                           width: auto}
+
+/*page topボタンの追加*/
+
+ #page_top{width: 35px;
+          height: 35px;
+          position: fixed;
+          right: 5px;
+          bottom: 30px;
+          background: #777777; /*ボタンの色*/
+　　　　   opacity: 0.6;
+          border-radius: 50%; /*角の丸み*/
+　　　　　　}
+#page_top a {position: relative;
+            display: block;
+            width: 50px;
+            height: 50px;
+            text-decoration: none;
+          }
+#page_top a::before{
+             content: "TOP"; /*アイコン*/
+    　　　　　font-weight: 900;
+            font-size: 18px;
+            color: #fff; /*アイコンの色*/
+    　　　　　position: absolute;
+            width: 25px;
+            height: 25px;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            margin: auto;
+            text-align: center;
+}
+/* コピーライト */
+.copyright p {margin: 0;
+              color: #666666;
+              font-size: 14px}
+
+
+
+
+
+/* box5の上に区切り線を入れる*/
+.box5          {border-top: solid 1px #dddddd}
+
+/* ボックスの上下の間隔 */
+.box1    {padding-top: 14px;
+          padding-bottom: 6px;}
+.box2    {padding-top: 2px;
+          padding-bottom: 2px;}
+.box3    {padding-top: 5px;
+          padding-bottom: 30px;}
+.box4    {padding-top: 40px;
+          padding-bottom: 30px;}
+.box5    {padding-top: 15px;
+          padding-bottom: 15px;}
+.top .boxA     {padding-top: 20px;
+                padding-bottom: 20px;}
+
+/* ########### 599px以下 ########### */
+@media (max-width: 599px){
+/* ナビゲーション */
+    .menu li a     {padding: 10px 3px;
+                    font-size: 11px}
+    
+/* サイト名と記事のタイトル */
+    .site h1     {font-size: 20px}
+    .kiji h1     {font-size: 26px}
+/* ボックスの上下の間隔 */
+    .box1     {padding-top: 4px;
+              padding-bottom: 4px}
+    .box3     {padding-top: 15px}
+    
+    
+    
+    
+}
+
+/* ########### 767px以下 ########### */
+@media screen and (max-width : 767px){
+    /* 全体の横幅を固定 */
+.box1, .box2, .boxA, .box5 
+    {width: 600px;
+     margin-left: auto;
+     margin-right: auto;}
+    
+.box1 h1      {font-size: 40px;}
+.kiji         {padding-top: 30px;
+               padding-bottom: 30px;
+               padding-right: 30px;
+               padding-left: 30px;}
+.kiji h2       {font-size: 30px;}
+.kiji img     {max-width: 70%;
+               height: auto;
+               border: none;
+               margin-bottom: 30px;
+               vertical-align: bottom}
+
+.gaiyou       {margin-bottom: 30px;}
+.gaiyou a     {padding-top: 5px;
+               padding-bottom: 30px;
+               padding-right: 1px;
+               padding-left: 1px;} 
+.gaiyou img    {max-width: 99%;
+                height: auto;
+                border: none;
+                margin-bottom: 10px;
+                vertical-align: bottom}
+}
+
+.pagenation   {text-align: center;}
+/* ########### 768px以上 ########### */
+@media (min-width: 768px) {
+    
+
+/* 全体の横幅を固定 */
+.box1, .box2, .boxA, .box5 
+    {width: 600px;
+     margin-left: auto;
+     margin-right: auto}
+}
+
+/* ########### 1040px以上 ########### */
+@media (min-width: 1040px) {
+  /* 記事 */
+.kiji    {     padding-top: 30px;
+               padding-bottom: 90px;
+               padding-right: 80px;
+               padding-left: 80px;}  
+    
+.kiji h2    {margin-top: 0;
+             margin-bottom: 15px;
+             font-size: 28px;
+             padding-left: 10px;
+             }
+
+.kiji p     {
+             margin-top: 0;
+             margin-bottom: 20px}
+
+.kiji img   {max-width: 99%;
+             height: auto;
+                border: none;
+                margin-bottom: 30px;
+                vertical-align: bottom}
+
+
+    /* 概要 */
+.gaiyou       {margin-bottom: 30px;}
+
+.gaiyou img    {max-width: 99%;
+                height: auto;
+                border: none;
+                margin-bottom: 10px;
+                margin-left: 3px;
+                margin-right: 3px;
+                margin-top: 3px;
+
+                vertical-align: bottom}
+    
+    
+/* 全体の横幅を固定 */
+.box1, .box2, .boxA, .box5, .bbb
+    {width: 600px;
+     margin-left: auto;
+     margin-right: auto}
+}
