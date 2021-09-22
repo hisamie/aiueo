@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>写真ブログ:Hisa PHOTO BLOG:写真と文章をお届け。面白い本の紹介も。</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="富士フィルムのミラーレスe-x1で撮影。面白い本の紹介もしています。|写真|ミラーレス|オススメ本|HTML|CSS|">
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-189864078-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-189864078-1');
+</script>
+
+    </head>
+<body>
+    <div class="box1">
+    <div class="site">
+    <h1><a href="index.html">Hisa PHOTO BLOG</a></h1>
+        </div>
+    </div>
+    
+    <div class="box2">
+    <nav class="menu">
+    <ul>
+        <li><a href="index.html">TOP</a></li>
+        <li><a href="profile.html">profile</a></li>
+        
+    </ul>
+    </nav>
+    </div>
+<div class="boxA">
+    <div class="box3">
+    <article class="kiji">
+                <br></br>
+        <div><img src="エスプレッソ.jpg" alt="エスプレッソ"></div>
+        <h2>コーヒーをおいしく作りたくて</h2>
+        <p>　もう夏も終盤にさしかかってきて、ようやくアイスコーヒーを淹れようと思い立った。去年もハリオの入れ物を買って、
+            意気揚々と作っていたことを思い出だしたのだ。だけれども、なかなかうまくできない。薄い。濃い。酸っぱい。・・・なぜだ。
+            3回同じやり方をして、すべて満足できなかった。ので、グーグルで検索をかけたのだけれども、
+            どうやらアイスコーヒーは急速に冷やすことで美味しくなるらしい。そういえば、コンビニで売っているのもそうだったと思い出して、試した。
+            ビーカーに氷をいっぱいいれて、コーヒー粉に100℃に近いお湯を細い水量で注ぐ。たったこれだけど美味しくなるらしい。
+            ほんとうか？翌朝、パンとともにコーヒーをいただく。たしかに美味しい。コンビニのアイスコーヒーに近づいた！
+            <br>
+            　最近、自分のことが少しずつ分かってきた。コーヒーもスーパーで買えばいいのだけれど、面白くないので自分で作ることにした。
+            田舎に住んでいるので、近くにミスタードーナツがない。作ることにした。ケーキ屋さんはあるけど、チーズケーキがないから作ることにした。以下略。
+            ドーナツ、チーズケーキ、コーヒーなど買ってしまえば、お金と商品の交換ですべてが円滑に回っていくんだけれど、それは経済力がないとできないこと。
+            だが、お金がないが時間があるときはそのやり方をしていてはダメだと思う。そもそも資本主義の土台に乗っては美味しいものはありつけない。
+            ではどうやって美味しいもの、満足できるものを手に入れるか？それは自分で作るしかない。失敗することは勘定に入れておいて、多少の時間はかかるが作る。
+            そうすれば作れる。何でも作れる。ドーナツもチーズケーキもコーヒーも。商品としての美味しさはないけれど、自分でも作れるんだ！という驚きと感動がある。
+            何より喜んでくれる人がいる。すごい！なんでも作れるやん！じゃあ次はスタバのホワイトマカダミアンクッキー作ってね！とオーダーが入り、また作って・・・。
+            お菓子やコーヒーを作ったらそれでおしまい、ご馳走様だと思っていたけど、そうではなかった。自分でなんでもできるんだという自信があることに気づかされた。
+            100％の商品を手に入れることができなくても、違う土俵で戦えるんだと知ることができた。
+            
+            
+            </p>
+        
+        　　
+        </article>
+    
+    <div id="page_top"><a href="#"></a></div>
+    
+    
+</div>
+    <div class="box5">
+    <div class="copyright">
+    <p>Copyright &copy; Hisa PHOTO BLOG</p>
+        </div>
+    </div>
+</body>
+</html>
